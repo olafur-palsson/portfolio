@@ -1,0 +1,18 @@
+
+
+@import "./variables.scss";
+@import "./mixins.scss";
+
+
+@import "./jumbotron.scss";
+@import "./button.scss";
+@import "./card.scss";
+@import "./image.scss";
+
+* {
+    font-family: inherit;
+}
+
+body {
+    font-family: $font;
+}
