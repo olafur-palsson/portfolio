@@ -1,17 +1,19 @@
 <template>
   <div class="card">
-    <Image v-bind:url="imgurl" />
-    <p class="card__description">{{ description }}</p>
+    <Background v-bind:url="imgUrl" />
+    <div class="card__description">
+      <p class="card__text">{{ description }}</p>
+    </div>
   </div>
 </template>
 
 <script>
-import Image from "./Image";
+import Background from "./Background";
 
 export default {
   name: "Card",
   components: {
-    Image
+    Background
   },
   props: {
     description: String,

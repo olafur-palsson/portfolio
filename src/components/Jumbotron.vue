@@ -1,7 +1,13 @@
 <template>
   <div class="jumbotron">
-    <Button text="Click me bro" />
-    <Card description="Ólafur Pálsson" imgUrl="../assets/logo.png" />
+    <div class="jumbotron__content">
+      <Card description="Ólafur Pálsson" imgUrl="img.png" />
+      <div class="jumbotron__buttons">
+        <Button text="Click me bro" />
+        <Button text="Click me too" />
+        <Button text="Click me also" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -24,5 +30,9 @@ export default {
 <style>
 .jumbotron {
   background-image: url("../assets/bg.jpg");
+}
+
+Button {
+  margin: 7px;
 }
 </style>

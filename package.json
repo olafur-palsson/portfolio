@@ -32,5 +32,16 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "#": "prettier config in here :)",
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "none"
+      }
+    ]
   }
 }

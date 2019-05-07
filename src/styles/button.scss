@@ -10,7 +10,7 @@
     
     transition: all 0.3s;
 
-    @include fullflex;
+    @include flex(center);
 
     &:hover {
         transform: translateY(-3px);
