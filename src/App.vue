@@ -1,21 +1,55 @@
 <template>
   <div id="app">
-    <Jumbotron />
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <!--HelloWorld msg="Welcome to Your Vue.js App" /-->
+    <Jumbotron :displayContactInfo="displayContactInfo"/>
+
+    <Project v-for="project in projects" :key="project.text" :data="project"/>
+    <Footer />
+
+    <Contact v-if="shouldDisplayContact" :hideSelf="hideContactInfo" />
   </div>
 </template>
 
 <script>
 // import HelloWorld from "@/components/HelloWorld.vue";
-import Jumbotron from "@/components/Jumbotron.vue";
+import Jumbotron from '@/components/Jumbotron'
+import Project from '@/components/Project'
+import Footer from '@/components/Footer'
+import Contact from '@/components/Contact'
+
+const jsonData = require('@/projects.json')
+
+console.log(jsonData)
 
 export default {
-  name: "app",
+  name: 'app',
+  data () {
+    return {
+      projectSampleData: {
+        description: 'Nothing',
+        text: 'A lot of othehe ehoatns euoahtnu ehotanbkqjnkbosnhueoahuc., uhao uhceoaueoaueoa hueoanth u,tnhutns acjraq dkqk oha ueoa aotehuetoahuteao ss etc.',
+        heading: 'Testing Sample stuff with a long heading texto',
+        imgUrl: 'https://i.imgur.com/pnVKnUz.png'
+      },
+      projects: jsonData,
+      shouldDisplayContact: true,
+    }
+  },
   components: {
-    // HelloWorld,
-    Jumbotron
+    Jumbotron,
+    Project,
+    Footer,
+    Contact
+  },
+
+  methods: {
+    displayContactInfo () {
+      this.shouldDisplayContact = true
+    },
+    hideContactInfo () {
+      this.shouldDisplayContact = false
+    }
   }
+
 };
 </script>
 
@@ -26,4 +60,5 @@ export default {
 }
 
 @import "./reset.css";
+@import "./main.scss";
 </style>

@@ -1,8 +1,10 @@
 <template>
   <div class="card">
-    <Background v-bind:url="imgUrl" />
+    <Background :url="imgUrl" />
     <div class="card__description">
-      <p class="card__text">{{ description }}</p>
+      <div class="card__text">{{ description }}</div>
+      <a :href="github"><div class="card__text github"> GitHub </div></a>
+      
     </div>
   </div>
 </template>
@@ -17,7 +19,17 @@ export default {
   },
   props: {
     description: String,
-    imgUrl: String
+    imgUrl: String,
+    github: String
   }
 };
 </script>
+
+<style lang="scss">
+
+a {
+  height: 100%;
+  width: 100%;
+}
+
+</style>

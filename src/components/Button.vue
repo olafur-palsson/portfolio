@@ -1,5 +1,5 @@
 <template>
-  <div class="button">
+  <div class="button" v-on:click="onClick()">
     <h1>{{ text }}</h1>
   </div>
 </template>
@@ -8,7 +8,8 @@
 export default {
   name: "Button",
   props: {
-    text: String
+    text: String,
+    onClick: Function
   }
 };
 </script>

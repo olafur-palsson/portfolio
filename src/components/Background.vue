@@ -6,17 +6,28 @@
 <script>
 export default {
   name: "Background",
-  data () {
+
+  data ()  {
     return {
-      public: process.env.BASE_URL
+      publicFolderPath: process.env.BASE_URL
     }
   },
+
   props: {
     url: String
   },
-  beforeMount () {
-    const url = this.public + this.$props.url
-    this.styleObject = { backgroundImage: `url(${url})` }
+
+  created () {
+    const url = this.$props.url
+    const prefix = this.getUrlPrefix(url)
+    this.styleObject = { backgroundImage: `url(${prefix + url})` }
+  },
+
+  methods: {
+    isHttp: url => url.match(/^http/),
+    getUrlPrefix (url) {
+      return this.isHttp(url) ? "" : this.publicFolderPath
+    }
   }
 };
 </script>

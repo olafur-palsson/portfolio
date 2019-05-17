@@ -1,0 +1,16 @@
+.tag {
+    margin: 3px;
+    padding: 3px;
+
+    color: $black;
+    background-color: $green;
+    border-radius: 3px;
+    font-family: $monofont;
+}
+
+.tagList {
+    margin-top: 10px;
+
+    @include flex(begin);
+    flex-wrap: wrap;
+}

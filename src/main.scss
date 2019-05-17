@@ -1,0 +1,23 @@
+
+
+@import "./scss/variables.scss";
+@import "./scss/mixins/screenMediaQueries.scss";
+@import "./scss/mixins/flex.scss";
+
+@import "./scss/jumbotron.scss";
+@import "./scss/card.scss";
+@import "./scss/image.scss";
+@import "./scss/project.scss";
+@import "./scss/button.scss";
+@import "./scss/footer.scss";
+@import "./scss/tags.scss";
+@import "./scss/contact.scss";
+
+
+* {
+    font-family: inherit;
+}
+
+body {
+    font-family: $font;
+}

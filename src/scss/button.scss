@@ -17,5 +17,13 @@
         background-color: $green;
         color: $black;
         box-shadow: 0px 5px 3px 0px $black;
+
+        &:active {
+            transform: none;
+            background-color: $black;
+            color: $white;
+            box-shadow: none;
+        }
     }
+
 }

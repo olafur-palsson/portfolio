@@ -1,18 +1,17 @@
 .jumbotron {
     height: 100vh;
     width: 100%;
+    min-height: 700px;
     background-position: center;
     background-size: cover;
-    @include flex(center);
-    flex-wrap: wrap;
+    @include flex(center, row, wrap);
 
     &__content {
         width: 80vw;
         max-width: 1300px;
         max-height: 80vh;
         @include flex(space-around);
-
-        @media(max-width: 1000px) {
+        @include screen('med', max) {
             flex-wrap: wrap;
         }
     }

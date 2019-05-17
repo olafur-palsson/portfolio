@@ -1,9 +1,5 @@
 module.exports = {
-  css: {
-    loaderOptions: {
-      sass: {
-        data: `@import "~@/styles/global.scss";`
-      }
+    configureWebpack: {
+        devtool: 'source-map'
     }
-  }
-};
+}

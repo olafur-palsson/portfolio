@@ -1,0 +1,35 @@
+// Define the screen sizes
+$screen-size-small: 600px;
+$screen-size-med-small: 960px;
+$screen-size-med: 1000px;
+
+@mixin screen($size, $type: max, $pixels: $screen-size-small) {
+  @if $size == 'small' {
+    @media screen and ($type + -width: $screen-size-small) {
+        @content;
+    }
+  }
+  @else if $size == 'med-small' {
+    @media screen and ($type + -width: $screen-size-med-small) {
+        @content;
+    }
+  }
+  @else if $size == 'med' {
+    @media screen and ($type + -width: $screen-size-med) {
+        @content;
+    }
+  }
+ @else if $size == 'large' {
+    @media screen and ($type + -width: $screen-size-med) {
+        @content;
+    }
+  }
+  @else if $size == 'custom' {
+    @media screen and ($type + -width: $pixels + px) {
+     @content;
+    }
+  }
+  @else {
+    @content;
+  }
+} 

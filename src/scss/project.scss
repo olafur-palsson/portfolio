@@ -1,0 +1,45 @@
+.project {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    box-sizing: border-box;
+
+    background-color: $blue;
+    color: $white;
+
+    @include flex(center);
+
+    &:nth-child(3n+1) {
+        background-color: $ltblue;
+        color: $black;
+    }
+
+    &:nth-child(3n+2) {
+        background-color: $white;
+        color: $black;
+    }
+
+    &__content {
+        max-width: 1200px;
+
+        @include flex(around, row);
+
+        @include screen('med', max) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__text {
+        width: 100%;
+        padding: 5%;
+
+        &__heading {
+            font-size: $h2;
+            margin-bottom: 10px;
+        }
+    }
+
+    & reverse {
+        flex-direction: row-reverse;
+    }
+}

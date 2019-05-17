@@ -1,0 +1,62 @@
+[
+    {
+      "description": "Basketball Stat Tracker",
+      "text": "This applications allows user to track the statistics of a basketball game. It supports account creation calculating and gathering statistics through a simple yet intuitive UI.",
+      "heading": "Android application with a remote database",
+      "image": "https://i.imgur.com/pnVKnUz.png",
+      "github": "https://github.com/alli959/Hugbunadarverkefni2",
+      "tags": "android java spring REST",
+      "link": "#",
+      "date": "1555200000000"
+    },
+    {
+      "description": "3D tetris",
+      "text": "A 3D tetris game implemented with WebGL. This game contains hand-written shaders for lighting and rendering and imports a custom textured Blender object.",
+      "heading": "WebGL 3D tetris",
+      "image": "https://i.imgur.com/pnVKnUz.png",
+      "github": "https://github.com/olafur-palsson/3dtetris",
+      "tags": "javascript glsl webgl linear-algebra HTML",
+      "link": "#",
+      "date": "1543449600000"
+    },
+     {
+      "description": "Policy Gradient Backgammon",
+      "text": "NOT A strong backgammon player that uses modern machine learning techniques to play backgammon. It uses a two-headed approach, one for evaluation of which action to take, the other to evaluate the probability of winning. Both of the heads share the same network. This project also contains a surrounding framework that uses several networks to compete against each other in a round-robin fashion.",
+      "heading": "Machine learning backgammon player",
+      "image": "https://i.imgur.com/pnVKnUz.png",
+      "github": "https://github.com/olafur-palsson/reikniverkefni2",
+      "tags": "android java spring REST",
+      "link": "#",
+      "date": "1543449600000"
+    },
+     {
+      "description": "Policy Gradient Backgammon",
+      "text": "A strong backgammon player that uses modern machine learning techniques to play backgammon. It uses a two-headed approach, one for evaluation of which action to take, the other to evaluate the probability of winning. Both of the heads share the same network. This project also contains a surrounding framework that uses several networks to compete against each other in a round-robin fashion.",
+      "heading": "Machine learning backgammon player",
+      "image": "https://i.imgur.com/pnVKnUz.png",
+      "github": "https://github.com/olafur-palsson/reikniverkefni2",
+      "tags": "AI machine-learning reinforcement-learning policy-gradient neural-network torch python",
+      "link": "#",
+      "date": "1543449600000"
+    },
+    {
+      "description": "Workout tracker",
+      "text": "An application to track workouts. It is as of now faster than paper. It stores data on a remote database and supports creating exercises and personalized routines.",
+      "heading": "Vue application with a remote database",
+      "image": "https://i.imgur.com/pnVKnUz.png",
+      "github": "https://github.com/olafur-palsson/workout-tracker",
+      "tags": "vue vue-router javascript es6 single-page-application java spring REST responsive vue-component HTML CSS",
+      "link": "#",
+      "date": "1544745600000" 
+    },
+    {
+      "description": "Hotel search engine",
+      "text": "One of the constraints on this project was that we store the data privately and the API should be accessable through an 'import' statement. These requirements came late and caused the project to blow up significantly, a valuable lesson learned.",
+      "heading": "React application with a remote database",
+      "image": "https://i.imgur.com/pnVKnUz.png",
+      "github": "https://github.com/marriskurari/KrustyBurgerPizza",
+      "tags": "react javascript es6 java spring REST single-page-application responsive react-component HTML CSS",
+      "link": "#",
+      "date": "1523664000000"
+    }
+ ]
