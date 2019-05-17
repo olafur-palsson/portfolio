@@ -15,29 +15,19 @@
       "heading": "WebGL 3D tetris",
       "image": "https://i.imgur.com/pnVKnUz.png",
       "github": "https://github.com/olafur-palsson/3dtetris",
-      "tags": "javascript glsl webgl linear-algebra HTML",
+      "tags": "javascript glsl webgl linear-algebra HTML blender",
       "link": "#",
       "date": "1543449600000"
     },
      {
-      "description": "Policy Gradient Backgammon",
-      "text": "NOT A strong backgammon player that uses modern machine learning techniques to play backgammon. It uses a two-headed approach, one for evaluation of which action to take, the other to evaluate the probability of winning. Both of the heads share the same network. This project also contains a surrounding framework that uses several networks to compete against each other in a round-robin fashion.",
-      "heading": "Machine learning backgammon player",
+      "description": "Fish tank",
+      "text": "A fish tank that is implemented with WebGL. It uses Boids flocking algorithm to direct the fish and make them behave like actual. It uses a custom object loader to load objects into buffers. Animations are done with GLSL",
+      "heading": "WebGL fish tank with herd behavior",
       "image": "https://i.imgur.com/pnVKnUz.png",
       "github": "https://github.com/olafur-palsson/reikniverkefni2",
-      "tags": "android java spring REST",
+      "tags": "glsl javascript webpack blender linear-algebra webgl HTML",
       "link": "#",
-      "date": "1543449600000"
-    },
-     {
-      "description": "Policy Gradient Backgammon",
-      "text": "A strong backgammon player that uses modern machine learning techniques to play backgammon. It uses a two-headed approach, one for evaluation of which action to take, the other to evaluate the probability of winning. Both of the heads share the same network. This project also contains a surrounding framework that uses several networks to compete against each other in a round-robin fashion.",
-      "heading": "Machine learning backgammon player",
-      "image": "https://i.imgur.com/pnVKnUz.png",
-      "github": "https://github.com/olafur-palsson/reikniverkefni2",
-      "tags": "AI machine-learning reinforcement-learning policy-gradient neural-network torch python",
-      "link": "#",
-      "date": "1543449600000"
+      "date": "1550793600000"
     },
     {
       "description": "Workout tracker",
@@ -48,6 +38,16 @@
       "tags": "vue vue-router javascript es6 single-page-application java spring REST responsive vue-component HTML CSS",
       "link": "#",
       "date": "1544745600000" 
+    },
+     {
+      "description": "Policy Gradient Backgammon",
+      "text": "A strong backgammon player that uses modern machine learning techniques to play backgammon. It uses a two-headed approach, one for evaluation of which action to take, the other to evaluate the probability of winning. Both of the heads share the same network. This project also contains a surrounding framework that uses several networks to compete against each other in a round-robin fashion.",
+      "heading": "Machine learning backgammon player",
+      "image": "pub_stomper.jpg",
+      "github": "https://github.com/olafur-palsson/reikniverkefni2",
+      "tags": "AI machine-learning reinforcement-learning policy-gradient neural-network torch python",
+      "link": "#",
+      "date": "1543449600000"
     },
     {
       "description": "Hotel search engine",
