@@ -8,7 +8,7 @@
           <Button text="Resume" />
         </a>
         <Button text="Projects" :onClick="scroolToProjects" />
-        <input id="secret" type="hidden" style="" value="olafur.palsson2@gmail.com">
+        <input id="secret" type="text" style="" value="olafur.palsson2@gmail.com">
       </div>
     </div>
   </div>
