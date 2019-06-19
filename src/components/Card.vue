@@ -2,7 +2,7 @@
   <div class="card">
     <Background :url="imgUrl" />
     <div class="card__description">
-      <div class="card__text">{{ description }}</div>
+      <a :href="link"><div class="card__text">{{ description }}</div></a>
       <a :href="github"><div class="card__text github"> GitHub </div></a>
       
     </div>
@@ -20,7 +20,8 @@ export default {
   props: {
     description: String,
     imgUrl: String,
-    github: String
+    github: String,
+    link: String
   }
 };
 </script>

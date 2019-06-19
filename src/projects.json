@@ -13,20 +13,20 @@
       "description": "3D tetris",
       "text": "A 3D tetris game implemented with WebGL. This game contains hand-written shaders for lighting and rendering and imports a custom textured Blender object.",
       "heading": "WebGL 3D tetris",
-      "image": "https://i.imgur.com/pnVKnUz.png",
+      "image": "tetris.jpg",
       "github": "https://github.com/olafur-palsson/3dtetris",
       "tags": "javascript glsl webgl linear-algebra HTML blender",
-      "link": "#",
+      "link": "./3dtetris/",
       "date": "1543449600000"
     },
      {
       "description": "Fish tank",
       "text": "A fish tank that is implemented with WebGL. It uses Boids flocking algorithm to direct the fish and make them behave like actual. It uses a custom object loader to load objects into buffers. Animations are done with GLSL",
       "heading": "WebGL fish tank with herd behavior",
-      "image": "https://i.imgur.com/pnVKnUz.png",
-      "github": "https://github.com/olafur-palsson/reikniverkefni2",
+      "image": "fish.jpg",
+      "github": "https://github.com/olafur-palsson/fish",
       "tags": "glsl javascript webpack blender linear-algebra webgl HTML",
-      "link": "#",
+      "link": "./fish/",
       "date": "1550793600000"
     },
     {

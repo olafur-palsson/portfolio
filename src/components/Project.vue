@@ -1,7 +1,7 @@
 <template>
   <div :class="className" >
     <div class="project__content">
-      <Card :description="description" :imgUrl="image" :github="github" />
+      <Card :description="description" :imgUrl="image" :github="github" :link="link"/>
       <div class="project__text">
         <p>{{ new Date(parseInt(date)).toDateString() }}</p>
         <p class="project__text__heading">{{ heading }}</p>
