@@ -2,8 +2,11 @@
   <div class="card">
     <Background :url="imgUrl" />
     <div class="card__description">
-      <a :href="link"><div class="card__text">{{ description }}</div></a>
-      <a :href="github"><div class="card__text github"> GitHub </div></a>
+
+      <a :href="link" v-if="link"><div class="card__text moves">{{ description }}</div></a>
+      <div class="card__text" v-else>{{ description }}</div>
+
+      <a :href="github"><div class="card__text github moves"> GitHub </div></a>
       
     </div>
   </div>

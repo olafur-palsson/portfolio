@@ -35,7 +35,7 @@ $cardHeight: 400px;
             overflow: hidden;
         }
 
-        &:hover {
+        &.moves:hover {
             transform: translateY(-3px);
             background-color: $white;
             color: $black;
