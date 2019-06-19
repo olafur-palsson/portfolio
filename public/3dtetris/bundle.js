@@ -12640,7 +12640,7 @@ function rotate(out, a, rad) {
   out[8] = a22;
   return out;
 }
-;
+
 /**
  * Scales the mat3 by the dimensions in the given vec2
  *
@@ -14692,7 +14692,7 @@ function targetTo(out, eye, target, up) {
   out[15] = 1;
   return out;
 }
-;
+
 /**
  * Returns a string representation of a mat4
  *
@@ -18490,7 +18490,7 @@ function cross(out, u, v, w) {
   out[3] = -(G * D) + H * B - I * A;
   return out;
 }
-;
+
 /**
  * Performs a linear interpolation between two vec4's
  *
@@ -20066,7 +20066,7 @@ function () {
       var vec = [0, -1, 0];
 
       while (this.tryMove(this.currentPosPlusVector(vec))) {
-        ;
+        
       }
 
       this.blockFinished();

@@ -1,11 +1,21 @@
 [
     {
+      "description": "Infinite loop",
+      "text": "This is very much what you are looking at right now. It basically takes a small JSON and renders it with Vue.",
+      "heading": "Portfolio page",
+      "image": "portfolio.jpg",
+      "github": "https://github.com/olafur-palsson/portfolio",
+      "tags": "vue HTML CSS SCSS JSON javascript",
+      "link": "#",
+      "date": "1560971430359"
+    },  
+    {
       "description": "Basketball Stat Tracker",
       "text": "This applications allows user to track the statistics of a basketball game. It supports account creation calculating and gathering statistics through a simple yet intuitive UI.",
       "heading": "Android application with a remote database",
-      "image": "https://i.imgur.com/pnVKnUz.png",
+      "image": "basketball.jpg",
       "github": "https://github.com/alli959/Hugbunadarverkefni2",
-      "tags": "android java spring REST",
+      "tags": "android java spring REST ssh",
       "link": "#",
       "date": "1555200000000"
     },
@@ -33,10 +43,10 @@
       "description": "Workout tracker",
       "text": "An application to track workouts. It is as of now faster than paper. It stores data on a remote database and supports creating exercises and personalized routines.",
       "heading": "Vue application with a remote database",
-      "image": "https://i.imgur.com/pnVKnUz.png",
+      "image": "workout.jpg",
       "github": "https://github.com/olafur-palsson/workout-tracker",
-      "tags": "vue vue-router javascript es6 single-page-application java spring REST responsive vue-component HTML CSS",
-      "link": "#",
+      "tags": "vue vue-router javascript ssh es6 single-page-application java spring REST responsive console vue-component HTML CSS",
+      "link": "./workout-tracker.html",
       "date": "1544745600000" 
     },
      {
@@ -53,7 +63,7 @@
       "description": "Hotel search engine",
       "text": "One of the constraints on this project was that we store the data privately and the API should be accessable through an 'import' statement. These requirements came late and caused the project to blow up significantly, a valuable lesson learned.",
       "heading": "React application with a remote database",
-      "image": "https://i.imgur.com/pnVKnUz.png",
+      "image": "react.png",
       "github": "https://github.com/marriskurari/KrustyBurgerPizza",
       "tags": "react javascript es6 java spring REST single-page-application responsive react-component HTML CSS",
       "link": "#",
