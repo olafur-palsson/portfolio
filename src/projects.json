@@ -10,11 +10,11 @@
       "date": "1523750400000"
     },
     {
-      "description": "👉 hotelleifur.is",
-      "text": "A website that I created for a startup using Squarespace.",
-      "heading": "Futuristics website",
+      "description": "👉 futuristics.is",
+      "text": "A website that I created for a startup using Squarespace. It involved some requirements engineering and design. This project has zero code and thus very few bugs.",
+      "heading": "Website for Futuristics, a statistics company",
       "image": "futuristics.jpg",
-      "github": "#",
+      "github": "https://github.com/olafur-palsson/portfolio",
       "tags": "DNS domain squarespace",
       "link": "www.futuristics.is",
       "date": "1591640473983"
