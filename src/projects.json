@@ -1,5 +1,25 @@
 [
     {
+      "description": "👉 hotelleifur.is",
+      "text": "A website I created for Hotel Leifur Eiriksson during my time there as manager. It has a TripAdvisor widget to see the most recent reviews, styled as needed to fit the template.",
+      "heading": "Hotel Leifur Eiriksson website",
+      "image": "hotelleifur.jpg",
+      "github": "https://github.com/olafur-palsson/portfolio",
+      "tags": "squarespace CSS DNS",
+      "link": "www.hotelleifur.is",
+      "date": "1523750400000"
+    },
+    {
+      "description": "👉 hotelleifur.is",
+      "text": "A website that I created for a startup using Squarespace.",
+      "heading": "Futuristics website",
+      "image": "futuristics.jpg",
+      "github": "#",
+      "tags": "DNS domain squarespace",
+      "link": "www.futuristics.is",
+      "date": "1591640473983"
+    },
+    {
       "description": "👉 Infinite loop",
       "text": "This is very much what you are looking at right now. It basically takes a small JSON and renders it with Vue.",
       "heading": "Portfolio page",
@@ -8,7 +28,7 @@
       "tags": "vue HTML CSS SCSS JSON javascript",
       "link": "#",
       "date": "1560971430359"
-    },  
+    },
     {
       "description": "Basketball Stat Tracker",
       "text": "This applications allows user to track the statistics of a basketball game. It supports account creation calculating and gathering statistics through a simple yet intuitive UI.",
@@ -47,7 +67,7 @@
       "github": "https://github.com/olafur-palsson/workout-tracker",
       "tags": "vue vue-router javascript ssh es6 single-page-application java spring REST responsive console vue-component HTML CSS",
       "link": "./workout-tracker.html",
-      "date": "1544745600000" 
+      "date": "1544745600000"
     },
      {
       "description": "Policy Gradient Backgammon",
